@@ -1,3 +1,24 @@
+//p5
+var yoff = 0.0;
+var canvas;
+function setup(){
+    canvas = createCanvas(windowWidth, windowHeight);
+
+}
+function draw() {
+    tint(100, 10);
+    stroke(180, 20);
+    noFill();
+
+    line(random(0,windowWidth), 0, random(0,windowWidth), windowHeight);
+
+    if(mouseIsPressed){
+        setup();
+    }
+
+}
+
+//JQuery
 $(document).ready(function() {
 
     /* Every time the window is scrolled ... */
