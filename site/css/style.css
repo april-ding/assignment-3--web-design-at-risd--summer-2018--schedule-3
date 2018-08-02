@@ -90,6 +90,7 @@ nav a:hover{
    width: 83.3333%;
    margin: 650px 560px;
    transform: rotate(90deg);
+   font-family: 'Open Sans', sans-serif;
    font-weight: 400;
    font-size: 21px;
 }
