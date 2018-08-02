@@ -110,3 +110,19 @@ nav a:hover{
 .the-principle {
    width: 64.4295%;
 }
+/*p5 Code*/
+#canvas-container {
+   position: fixed;
+   top: 0;
+   left: 0;
+   z-index:1;
+}
+
+#defaultCanvas0 {
+   position: fixed;
+   top: 0;
+   left: 0;
+}
+canvas#defaultCanvas0{
+   z-index: -10;
+}
